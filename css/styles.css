@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family :Montserrat;
+}
+
+
+
+
+.coloured-section{
+  width: 100%;
+  color:#fff;
+  z-index: 10;
+  background-color: #64B2CD;
+}
+
+.title {
+  background-color:#F7F7E8;
+  padding-top : 13rem;
+  padding-bottom: 10rem;
+}
+
+.sub_title{
+  margin: auto;
+  max-width: 60%;
+  color:#004A55;
+  text-align: center;
+}
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: 20px;
+  height: 60px;
+  background-color:#64B2CD;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color:#F3F9FB;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+  background: white;
+  color: #0a0a0a;
+}
+
+.search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  text-decoration:none;
+}
+
+
+.types {
+  text-align: center;
+  padding: 2rem;
+  font-family: Ubuntu cursive;
+  font-weight: 900;
+}
+
+.home_headings {
+  /* margin-bottom: 23px; */
+  padding-bottom: 3rem;
+  font-family: Montserrat;
+  font-family: 600;
+}
+
+.home_types {
+  padding-left:5rem;
+  padding-right:5rem;
+  /* padding-bottom:1rem; */
+  padding-top:2rem;
+  margin-bottom:0;
+}
+
+.card{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  border-style:solid;
+  border-color: rgb(10, 30, 31);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-width: 2px;
+  margin-bottom: 3rem;
+}
+
+.card:hover{
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+  border-color: #64B2CD;
+    
+}
+.Appartment{
+  padding:5rem;
+}
+
+.card-header{
+  padding: 0;
+}
+
+.Button{
+  margin:auto;
+  display:block;
+  margin-bottom:2rem;
+}
+
+.Button a{
+  color: white;
+  text-decoration: None;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Seperate */
+
+
+.Heading {
+  padding: 3rem;
+  font-family: Montserrat;
+  font-family: 600;
+}
+
+.component {
+  margin: 2rem;
+  padding: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.component:hover img{
+  /* -webkit-transition-delay: 0.2s; */
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 26, .2);
+}
+
+.text {
+  padding-left: 4rem;
+}
